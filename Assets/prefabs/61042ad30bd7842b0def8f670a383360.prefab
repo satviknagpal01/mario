@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6331841339541999287}
   m_Layer: 0
   m_Name: 61042ad30bd7842b0def8f670a383360
-  m_TagString: Untagged
+  m_TagString: QuestionBlock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
