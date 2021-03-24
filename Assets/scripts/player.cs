@@ -35,17 +35,61 @@ public class player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "ground")
-            Isgrounded = true;
-
-        if (collision.gameObject.tag == "ground")
-            Debug.Log("Collision with plant");
-        if (collision.gameObject.tag == "Enemy")
-            SceneManager.LoadScene(1);
+        Vector3 direction = transform.position - collision.gameObject.transform.position;
+        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "pipe" || collision.gameObject.tag == "QuestionBlock")
+        {
+            if (direction.y > 0)
+            {
+                print("collision is up");
+                Isgrounded = true;
+            }
+            else
+            {
+                print("collision is down");
+                Isgrounded = false;
+            }
+            if (collision.gameObject.tag == "Enemy")
+                if (direction.y > 0) { print("collision is up"); }
+                else
+                {
+                    print("collision is down");
+                }
+            //SceneManager.LoadScene(0);
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "ground")
-            Isgrounded = false;
+        Vector3 direction = transform.position - collision.gameObject.transform.position;
+        if (collision.gameObject.tag == "ground"|| collision.gameObject.tag == "pipe" || collision.gameObject.tag == "QuestionBlock")
+            if (direction.y > 0)
+            {
+                print("collision is up");
+                Isgrounded = false;
+            }
+            else
+            {
+                print("collision is down");
+                Isgrounded = true;
+            }
     }
-}   
+}
+/* 
+ * 
+ * Vector3 direction = transform.position - c.gameObject.transform.position;
+         // see if the obect is futher left/right or up down
+         if (Mathf.Abs (direction.x) > Mathf.Abs (direction.y)) {
+ 
+             if(direction.x>0){print("collision is to the right");}
+             else{print("collision is to the left");}
+         
+         }else{
+ 
+             if(direction.y>0){print("collision is up");}
+             else{print("collision is down");}
+ 
+         }
+ 
+ 
+     
+     }
+ */

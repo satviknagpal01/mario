@@ -121,6 +121,228 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &76755479
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3800005662532338232, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.9284153
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6272315330712608391, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105581243723275279, guid: 74efd9101c6d23b46af62aa73edebe49,
+        type: 3}
+      propertyPath: m_Name
+      value: player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74efd9101c6d23b46af62aa73edebe49, type: 3}
+--- !u!1001 &161635922
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1001 &169362755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
 --- !u!1 &401773512
 GameObject:
   m_ObjectHideFlags: 0
@@ -204,3 +426,775 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &416301487
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1001 &548505362
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1001 &747258444
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1001 &754615100
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.32999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1 &1045083357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1045083359}
+  - component: {fileID: 1045083358}
+  m_Layer: 0
+  m_Name: Untitled-2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1045083358
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045083357}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 31e18ef0d1dd50f44bfd51bed24d222a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 60.00194, y: 24.200003}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1045083359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045083357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.42, y: 1.52, z: 0}
+  m_LocalScale: {x: 0.41998154, y: 0.542953, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1104488568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1001 &1305940507
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1 &1380366910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9105581243723275279, guid: 74efd9101c6d23b46af62aa73edebe49,
+    type: 3}
+  m_PrefabInstance: {fileID: 76755479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1380366911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380366910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72df100a0f4e80740945145c4deb421b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1704605847
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
+--- !u!1 &1942212532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1942212534}
+  - component: {fileID: 1942212533}
+  m_Layer: 0
+  m_Name: 123932-super-mario-bros-duck-hunt-world-class-track-meet-nes-screenshot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1942212533
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942212532}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 989d8b5b475fdca4da17e2d607762d35, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.76, y: 0.86}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1942212534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942212532}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.685, y: 2.603, z: 0}
+  m_LocalScale: {x: 4.328249, y: 4.4802985, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1956274342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2822784348388866995, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6678450388763903210, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_Name
+      value: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7499999
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420217909436195539, guid: d17563176306c3c4d94d1d9df677f098,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d17563176306c3c4d94d1d9df677f098, type: 3}
