@@ -12,12 +12,15 @@ public class player : MonoBehaviour
     private new Rigidbody2D rigidbody2D;
     private SpriteRenderer spriterenderer;
     private Animator animator;
+    private PhysicsMaterial2D physics;
+    public float friction;
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        physics = GetComponent<PhysicsMaterial2D>();
     }
 
     // Update is called once per frame
@@ -50,14 +53,12 @@ public class player : MonoBehaviour
         Vector2 direction = collision.GetContact(0).normal;
         if (collision.gameObject.tag == "ground" )
         {
-            if (direction.x == 1) print("right");
-            if (direction.x == -1) print("left");
             if (direction.y == 1)
             {
-                print("up");
                 Isgrounded = true;
             }
-            if (direction.y == -1) print("down");
+            else
+                Isgrounded = false;
         }
         if (collision.gameObject.tag == "pipe" )
         {
@@ -69,53 +70,42 @@ public class player : MonoBehaviour
         }
         if (collision.gameObject.tag == "QuestionBlock" )
         {
-            if (direction.x == 1) print("right");
-            if (direction.x == -1) print("left");
             if (direction.y == 1)
             {
-                print("up");
                 Isgrounded = true;
             }
-            if (direction.y == -1) print("down");
+            else if (direction.y == -1)
+            {
+                Isgrounded = false;
+            }
+            else
+                Isgrounded = false;
         }
         if (collision.gameObject.tag == "breakable")
         {
-            if (direction.x == 1) print("right");
-            if (direction.x == -1) print("left");
             if (direction.y == 1)
             {
-                print("up");
                 Isgrounded = true;
             }
-            if (direction.y == -1) Destroy(collision.gameObject);
+            else
+                Isgrounded = false;
         }
         if (collision.gameObject.tag == "Enemy")
         {
             if (direction.y == 1)
             {
-                print("collision is up enemy");
                 Destroy(collision.gameObject);
             }
             else
             {
-                print("collision is down");
                 SceneManager.LoadScene(0);
             }
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        Vector3 direction = transform.position - collision.gameObject.transform.position;
-        if (collision.gameObject.tag == "ground"|| collision.gameObject.tag == "pipe" || collision.gameObject.tag == "QuestionBlock" || collision.gameObject.tag == "breakable"|| collision.gameObject.tag == "fall")
-            if (direction.y > 0)
-            {
-                Isgrounded = false;
-            }
-            else
-            {
-                print("edgfhjk");
-                Isgrounded = true;
-            }
+        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "breakable" || collision.gameObject.tag == "QuestionBlock" || collision.gameObject.tag == "pipe")
+            Isgrounded = false;
     }
     public void OnTriggerEnter(Collider other)
     {
