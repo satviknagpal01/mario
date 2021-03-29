@@ -8,6 +8,9 @@ TagManager:
   - QuestionBlock
   - ground
   - pipe
+  - plant
+  - breakable
+  - fall
   layers:
   - Default
   - TransparentFX

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2904720873940691143}
   m_Layer: 0
   m_Name: mario-block-png-pictures-trzcacakrs-mario-block-png-1754_1753
-  m_TagString: ground
+  m_TagString: breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
