@@ -26,7 +26,7 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         var h = Input.GetAxis("Horizontal");
         rigidbody2D.velocity = new Vector2(h * speed, rigidbody2D.velocity.y);
         if (Input.GetKey(KeyCode.Space) && Isgrounded)
@@ -36,7 +36,7 @@ public class player : MonoBehaviour
         }
         else
         {
-            if(Isgrounded)
+            if (Isgrounded)
                 animator.SetBool("jump", false);
         }
         if (h != 0)
@@ -49,56 +49,60 @@ public class player : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //Vector3 direction = transform.position - collision.gameObject.transform.position;
-        Vector2 direction = collision.GetContact(0).normal;
-        if (collision.gameObject.tag == "ground" )
+        Vector3 direction = transform.position - collision.gameObject.transform.position;
+        // see if the obect is futher left/right or up down
+        if (collision.gameObject.tag == "ground")
         {
-            if (direction.y == 1)
+            if (direction.y > 0)
             {
                 Isgrounded = true;
             }
             else
                 Isgrounded = false;
         }
-        if (collision.gameObject.tag == "pipe" )
+        if (collision.gameObject.tag == "pipe")
         {
-            if (direction.y == 1 || direction.x == -1 || direction.x == 1)
-            {
-                print("up");
-                Isgrounded = true;
-            }
+
+            Isgrounded = true;
         }
-        if (collision.gameObject.tag == "QuestionBlock" )
+        if (collision.gameObject.tag == "QuestionBlock")
         {
-            if (direction.y == 1)
+            if (direction.y > 0)
             {
                 Isgrounded = true;
             }
-            else if (direction.y == -1)
+            else if (direction.y < 0)
             {
                 Isgrounded = false;
             }
-            else
-                Isgrounded = false;
         }
         if (collision.gameObject.tag == "breakable")
         {
-            if (direction.y == 1)
+            Isgrounded = true;
+            if (direction.y > 0)
             {
                 Isgrounded = true;
+                Isgrounded = true;
             }
-            else
-                Isgrounded = false;
-        }
-        if (collision.gameObject.tag == "Enemy")
-        {
-            if (direction.y == 1)
+            else if (direction.y < 0)
             {
                 Destroy(collision.gameObject);
+                Isgrounded = false;
+            }
+        }
+        if (collision.gameObject.tag == "Enemy")
+        {   
+            if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+            {
+                if (direction.x > 0) { SceneManager.LoadScene(0); }
+                else { SceneManager.LoadScene(0); }
+
             }
             else
             {
-                SceneManager.LoadScene(0);
+                if (direction.y > 0) { Destroy(collision.gameObject); }
+                else { SceneManager.LoadScene(0); ; }
+
             }
         }
     }
@@ -106,10 +110,5 @@ public class player : MonoBehaviour
     {
         if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "breakable" || collision.gameObject.tag == "QuestionBlock" || collision.gameObject.tag == "pipe")
             Isgrounded = false;
-    }
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "fall")
-        SceneManager.LoadScene(0);
     }
 }

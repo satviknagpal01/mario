@@ -11,6 +11,7 @@ TagManager:
   - plant
   - breakable
   - fall
+  - stairs
   layers:
   - Default
   - TransparentFX
