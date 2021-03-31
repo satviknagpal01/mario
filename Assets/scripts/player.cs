@@ -158,6 +158,7 @@ public class player : MonoBehaviour
         if (collider.gameObject.tag == "coin")
         {
             coin++;
+            score += 100;
             Destroy(collider.gameObject);
             print(coin);
         }

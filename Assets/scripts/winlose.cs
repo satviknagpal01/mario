@@ -16,5 +16,10 @@ public class winlose : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
             SceneManager.LoadScene(0);
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }
