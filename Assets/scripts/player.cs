@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
@@ -16,6 +17,7 @@ public class player : MonoBehaviour
     public AudioClip[] clips = new AudioClip[5];
     public int coin=0;
     public int score= 0;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +25,13 @@ public class player : MonoBehaviour
         spriterenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+        
     }
-
     // Update is called once per frame
     void Update()
     {
-        print(score);
+        scoreupdate.score = score;
+        coinupdate.coin = coin;
         var h = Input.GetAxis("Horizontal");
         rigidbody2D.velocity = new Vector2(h * speed, rigidbody2D.velocity.y);
         if (Input.GetKey(KeyCode.Space) && Isgrounded)
@@ -59,10 +62,6 @@ public class player : MonoBehaviour
     {
         Vector2 direction = collision.GetContact(0).normal;
 
-        if (collision.gameObject.tag == "fall")
-        {
-            SceneManager.LoadScene(0);
-        }
         if (collision.gameObject.tag == "QuestionBlock")
         {
 
@@ -71,10 +70,9 @@ public class player : MonoBehaviour
                 coin++;
                 score += 100;
                 collision.gameObject.tag = "done";
-                animator.SetBool("hit", true);
+                print(coin);
+                print(score);
             }
-            else
-                animator.SetBool("hit", false);
         }
     }
     private void OnCollisionStay2D(Collision2D collision)
@@ -126,11 +124,11 @@ public class player : MonoBehaviour
             {
                 if (direction.x > 0)
                 {
-                    SceneManager.LoadScene(0);
+                    SceneManager.LoadScene(2);
                     
                 }
                 else {
-                    SceneManager.LoadScene(0);
+                    SceneManager.LoadScene(2);
                 }
 
             }
@@ -143,7 +141,7 @@ public class player : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene(0);
+                    SceneManager.LoadScene(2);
                 }
 
             }
@@ -154,8 +152,18 @@ public class player : MonoBehaviour
         if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "breakable" || collision.gameObject.tag == "QuestionBlock" || collision.gameObject.tag == "pipe"|| collision.gameObject.tag == "done")
             Isgrounded = false;
     }
-    private void OnTriggerEnter2D(Collider2D fall)
-    {
-        SceneManager.LoadScene(0);
+    private void OnTriggerEnter2D(Collider2D collider)
+    {   if(collider.gameObject.tag =="fall")
+        SceneManager.LoadScene(2);
+        if (collider.gameObject.tag == "coin")
+        {
+            coin++;
+            Destroy(collider.gameObject);
+            print(coin);
+        }
+        if (collider.gameObject.tag == "win")
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 }

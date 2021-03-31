@@ -103,6 +103,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3254509696836047307, guid: 49c08e123408bac49a5ec2b1526def06,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5865670524570963042, guid: c03080d5209aadb4fa3fe98bc3014d59,
+        type: 3}
+    - target: {fileID: 3254509696836047307, guid: 49c08e123408bac49a5ec2b1526def06,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6552819348752594367, guid: 49c08e123408bac49a5ec2b1526def06,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -113,6 +124,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8198595305715280511, guid: 49c08e123408bac49a5ec2b1526def06,
+        type: 3}
+      propertyPath: block
+      value: 
+      objectReference: {fileID: -4966992281954946882, guid: c03080d5209aadb4fa3fe98bc3014d59,
+        type: 3}
     - target: {fileID: 9045148142812210030, guid: 49c08e123408bac49a5ec2b1526def06,
         type: 3}
       propertyPath: m_Name
@@ -123,7 +140,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: QuestionBlock
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2388878737926295956, guid: 49c08e123408bac49a5ec2b1526def06, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 49c08e123408bac49a5ec2b1526def06, type: 3}
 --- !u!4 &4013177567895184771 stripped
 Transform:

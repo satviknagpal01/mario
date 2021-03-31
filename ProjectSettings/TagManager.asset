@@ -14,6 +14,8 @@ TagManager:
   - stairs
   - done
   - coin
+  - player
+  - win
   layers:
   - Default
   - TransparentFX

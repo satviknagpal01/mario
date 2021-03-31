@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class questionblock : MonoBehaviour
 {
+    public Sprite block;
     private Animator animator;
+    private SpriteRenderer spriterenderer;
     // Start is called before the first frame update
     void Start()
     {
 
         animator = GetComponent<Animator>();
+        spriterenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -20,15 +23,18 @@ public class questionblock : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Vector2 direction = collision.GetContact(0).normal;
+
         if (collision.gameObject.tag == "player")
         {
-
-            if (direction.y == +1)
+            if (direction.y == 1)
             {
-                animator.SetBool("hit", true);
+                ChangeSprite();
             }
-            else
-                animator.SetBool("hit", false);
         }
+    }
+            public void ChangeSprite()
+    {
+        GetComponent<Animator>().enabled = false;
+        GetComponent<SpriteRenderer>().sprite = block;
     }
 }
