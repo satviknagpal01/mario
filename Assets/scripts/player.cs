@@ -12,27 +12,31 @@ public class player : MonoBehaviour
     private new Rigidbody2D rigidbody2D;
     private SpriteRenderer spriterenderer;
     private Animator animator;
-    private PhysicsMaterial2D physics;
-    public float friction;
+    private AudioSource audioSource;
+    public AudioClip[] clips = new AudioClip[5];
+    public int coin=0;
+    public int score= 0;
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        physics = GetComponent<PhysicsMaterial2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        print(score);
         var h = Input.GetAxis("Horizontal");
         rigidbody2D.velocity = new Vector2(h * speed, rigidbody2D.velocity.y);
         if (Input.GetKey(KeyCode.Space) && Isgrounded)
         {
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, jumpspeed);
             animator.SetBool("jump", true);
+            audioSource.clip = clips[2];
+            audioSource.Play();
         }
         else
         {
@@ -46,10 +50,36 @@ public class player : MonoBehaviour
         }
         else
             animator.SetBool("walk", false);
+        if (Isgrounded == false && Input.GetKey(KeyCode.Space))
+            speed = 4;
+        else
+            speed = 6;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Vector3 direction = transform.position - collision.gameObject.transform.position;
+        Vector2 direction = collision.GetContact(0).normal;
+
+        if (collision.gameObject.tag == "fall")
+        {
+            SceneManager.LoadScene(0);
+        }
+        if (collision.gameObject.tag == "QuestionBlock")
+        {
+
+            if (direction.y == -1)
+            {
+                coin++;
+                score += 100;
+                collision.gameObject.tag = "done";
+                animator.SetBool("hit", true);
+            }
+            else
+                animator.SetBool("hit", false);
+        }
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        Vector2 direction = collision.GetContact(0).normal;
         // see if the obect is futher left/right or up down
         if (collision.gameObject.tag == "ground")
         {
@@ -65,28 +95,28 @@ public class player : MonoBehaviour
 
             Isgrounded = true;
         }
-        if (collision.gameObject.tag == "QuestionBlock")
+        if (collision.gameObject.tag == "QuestionBlock"|| collision.gameObject.tag == "done")
         {
             if (direction.y > 0)
             {
                 Isgrounded = true;
             }
-            else if (direction.y < 0)
+            else if (direction.y == 0)
             {
                 Isgrounded = false;
             }
         }
         if (collision.gameObject.tag == "breakable")
         {
-            Isgrounded = true;
             if (direction.y > 0)
             {
-                Isgrounded = true;
                 Isgrounded = true;
             }
             else if (direction.y < 0)
             {
                 Destroy(collision.gameObject);
+                audioSource.clip = clips[0];
+                audioSource.Play();
                 Isgrounded = false;
             }
         }
@@ -94,21 +124,38 @@ public class player : MonoBehaviour
         {   
             if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
             {
-                if (direction.x > 0) { SceneManager.LoadScene(0); }
-                else { SceneManager.LoadScene(0); }
+                if (direction.x > 0)
+                {
+                    SceneManager.LoadScene(0);
+                    
+                }
+                else {
+                    SceneManager.LoadScene(0);
+                }
 
             }
             else
             {
-                if (direction.y > 0) { Destroy(collision.gameObject); }
-                else { SceneManager.LoadScene(0); ; }
+                if (direction.y > 0) { Destroy(collision.gameObject);
+                    audioSource.clip = clips[1];
+                    audioSource.Play();
+                    score += 100;
+                }
+                else
+                {
+                    SceneManager.LoadScene(0);
+                }
 
             }
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "breakable" || collision.gameObject.tag == "QuestionBlock" || collision.gameObject.tag == "pipe")
+        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "breakable" || collision.gameObject.tag == "QuestionBlock" || collision.gameObject.tag == "pipe"|| collision.gameObject.tag == "done")
             Isgrounded = false;
+    }
+    private void OnTriggerEnter2D(Collider2D fall)
+    {
+        SceneManager.LoadScene(0);
     }
 }

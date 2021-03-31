@@ -12,6 +12,8 @@ TagManager:
   - breakable
   - fall
   - stairs
+  - done
+  - coin
   layers:
   - Default
   - TransparentFX

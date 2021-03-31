@@ -27,10 +27,10 @@ public class enemy : MonoBehaviour
             speed = speed * -1;
             spriterenderer.flipX = speed>0;
         }
+        if (collision.gameObject.tag == "fall")
+        {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
 
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        
     }
 }
