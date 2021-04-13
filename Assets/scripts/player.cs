@@ -104,7 +104,11 @@ public class player : MonoBehaviour
                 Isgrounded = false;
             }
         }
-        if (collision.gameObject.tag == "breakable")
+        if (collision.gameObject.tag == "plant")
+        {
+            SceneManager.LoadScene(2);
+        }
+            if (collision.gameObject.tag == "breakable")
         {
             if (direction.y > 0)
             {

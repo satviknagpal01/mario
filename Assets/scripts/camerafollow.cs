@@ -10,7 +10,7 @@ public class camerafollow : MonoBehaviour
     private void FixedUpdate()
     {
         float playerXPos = target.position.x;
-        float cameraXPos = Mathf.Clamp(playerXPos, 5.99f, 214f);
+        float cameraXPos = Mathf.Clamp(playerXPos, 7f, 214f);
         transform.position = new Vector3(cameraXPos, 2.3f, -10f);
     }
 }
